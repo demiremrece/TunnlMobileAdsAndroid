@@ -302,6 +302,7 @@ class AdStream {
         currentRequestInd = -1;
         String msize = "interstitial";
         if (!isInterstitial) msize = adSize;
+
         String url = "http://pub.tunnl.com/oppm?bundleid=and." + bundleId + "&msize=" + msize;
 
         // getting unit id from tunnl for ad request
